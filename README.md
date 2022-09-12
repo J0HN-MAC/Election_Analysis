@@ -31,7 +31,7 @@ A Colorodo Board of Elections employee has given us the following tasks to compl
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 total votes.
 - Below is a screenshot of the terminal after running the audit script.
-exclamation mark(github path to Terminal_Output_Screenshot)
+!(Resources/Terminal_Output_Screenshot.png)
 
 # Summary
 The script for this audit read the raw election data, then organized and tallied vote counts per candidate and county. Its modular format allows for modification to fit other types of elections. For example, in the following code:
@@ -42,12 +42,12 @@ the county variables could be changed to precinct variables to suit city and cou
 ```
 precinct_count = precinct_votes.get(precinct_name)
 ```
-Likewise for referendum and recall elections, candidate variables...
+Likewise for referendum and recall elections, the candidate variables...
 ```
 candidate_options = []
 candidate_votes = {}
 ```
-could be modified to reflect Yes/No options
+...could be modified to reflect Yes/No options.
 ```
 yes_votes[yes_option] += 1
 ```
