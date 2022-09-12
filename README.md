@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Election_Analysis
 
 ## Project Overview
@@ -50,3 +51,8 @@ could be modified to reflect Yes/No options
 ```
 yes_votes[yes_option] += 1
 ```
+=======
+# Election Analysis
+
+## 
+>>>>>>> 51ca43b2cc3ffc210f2f95c9ad47bf7d5a914a40
