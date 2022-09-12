@@ -31,7 +31,7 @@ A Colorodo Board of Elections employee has given us the following tasks to compl
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 total votes.
 - Below is a screenshot of the terminal after running the audit script.
-!(Resources/Terminal_Output_Screenshot.png)
+![this is an image](Resources/Terminal_Output_Screenshot.png)
 
 # Summary
 The script for this audit read the raw election data, then organized and tallied vote counts per candidate and county. Its modular format allows for modification to fit other types of elections. For example, in the following code:
