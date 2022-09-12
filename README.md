@@ -47,9 +47,10 @@ Likewise for referendum and recall elections, the candidate variables...
 candidate_options = []
 candidate_votes = {}
 ```
-...could be modified to reflect Yes/No options.
+...could be modified to reflect different options.
 ```
-yes_votes[yes_option] += 1
+ballot_options = []
+ballot_votes = {}
 ```
 =======
 # Election Analysis
